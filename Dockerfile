@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM openjdk:11-jre-slim
 WORKDIR /root
 COPY target/*.jar app.jar
 EXPOSE 8080
